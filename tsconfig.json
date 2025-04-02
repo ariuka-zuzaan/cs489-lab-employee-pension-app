@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    /* Type Checking */
+    "strict": true, // Enable all strict type-checking options (recommended)
+    // "skipLibCheck": true, // Optional: Skip type checking of declaration files (can speed up compilation)
+
+    /* Modules */
+    "module": "NodeNext", // Use Node.js's native ES Module support or CommonJS depending on your needs. 'NodeNext' is modern. Use 'CommonJS' for traditional require().
+    "moduleResolution": "NodeNext", // How modules get resolved. Align with 'module'.
+    // "baseUrl": "./", // Optional: Base directory to resolve non-relative module names
+    // "paths": {}, // Optional: Specify path mapping relative to 'baseUrl'
+
+    /* Emit */
+    "outDir": "./dist", // Output directory for compiled JavaScript
+    "sourceMap": true, // Generate source map files for debugging
+
+    /* JavaScript Support */
+    // "allowJs": true, // Allow JavaScript files to be compiled
+    // "checkJs": true, // Report errors in .js files
+
+    /* Interop Constraints */
+    "esModuleInterop": true, // Enables compatibility with CommonJS modules (recommended)
+    "forceConsistentCasingInFileNames": true, // Disallow inconsistently-cased references to the same file.
+
+    /* Language and Environment */
+    "target": "ES2023", // Target ECMAScript version. Node 23 supports modern features. ES2022 or ES2023 is appropriate.
+    "lib": ["ES2023"] // Specify library files to be included in the compilation.
+
+    /* Completeness */
+    // "skipDefaultLibCheck": true, // Optional: Skip type checking of default library declaration files.
+  },
+  "include": ["src/**/*"], // Specify which files TypeScript should compile
+  "exclude": ["node_modules", "**/*.spec.ts"] // Specify files/directories to exclude
+}

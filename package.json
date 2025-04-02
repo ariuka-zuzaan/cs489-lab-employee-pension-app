@@ -1,0 +1,28 @@
+{
+  "name": "cs489-lab-employee-pension-app",
+  "version": "1.0.0",
+  "description": "Lab1b - Employee-PensionPlan App",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "tsx src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariuka-zuzaan/cs489-lab-employee-pension-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ariuka-zuzaan/cs489-lab-employee-pension-app/issues"
+  },
+  "homepage": "https://github.com/ariuka-zuzaan/cs489-lab-employee-pension-app#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.17",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
