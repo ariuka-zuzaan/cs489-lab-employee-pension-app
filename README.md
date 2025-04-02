@@ -14,8 +14,6 @@ Ensure you have the following installed:
 Clone the repository and install dependencies:
 
 ```sh
-git clone https://github.com/yourusername/yourproject.git
-cd yourproject
 npm install  # or yarn install
 
 
